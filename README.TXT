@@ -1,32 +1,10 @@
-ÊµÑéÆ÷²Ä:
-	MiniSTM32F103¿ª·¢°åV3°æ±¾
-	
-ÊµÑéÄ¿µÄ:
-	Ñ§Ï°²ÊÉ«TFTLCDÏÔÊ¾ÆÁµÄÊ¹ÓÃ
-	
-Ó²¼þ×ÊÔ´:
-	1,DS0(Á¬½ÓÔÚPA8) 
-	2,´®¿Ú1(²¨ÌØÂÊ:9600,PA9/PA10Á¬½ÓÔÚ°åÔØUSB×ª´®¿ÚÐ¾Æ¬CH340ÉÏÃæ)
-	3,ALIENTEK 2.8/3.5/4.3/7´çTFTLCDÄ£¿é(Í¨¹ýGPIOÇý¶¯,Á¬½Ó¹ØÏµ¼ûlcd.h) 
-	
-ÊµÑéÏÖÏó:
-	±¾ÊµÑéÀûÓÃMiniSTM32¿ª·¢°åÁ¬½ÓALIENTEK TFTLCDÄ£¿é(³ýCPLD°æ±¾7´çÆÁÄ£¿éÍâ,ÆäÓàËùÓÐALIENTEKµÄ
-	LCDÄ£¿é¶¼¿ÉÒÔÖ§³Ö)£¬ÊµÏÖTFTLCDÄ£¿éµÄÏÔÊ¾£¬ÏÂÔØ³É¹¦ºó£¬Í¨¹ý°ÑLCDÄ£¿é²åÈëTFTLCDÄ£¿é½Ó¿Ú£¨¿¿ÓÒ
-	²å£©£¬°´ÏÂ¸´Î»Ö®ºó£¬¾Í¿ÉÒÔ¿´µ½LCDÄ£¿é²»Í£µÄÏÔÊ¾Ò»Ð©ÐÅÏ¢²¢²»¶ÏÇÐ»»µ×É«¡£Í¬Ê±¸ÃÊµÑé»áÏÔÊ¾LCDÇý
-	¶¯Æ÷µÄID£¬²¢ÇÒ»áÔÚ´®¿Ú´òÓ¡£¨°´¸´Î»Ò»´Î£¬´òÓ¡Ò»´Î£©¡£
-	
-×¢ÒâÊÂÏî:  
-	1,4.3´çºÍ7´çÆÁÐèÒª±È½Ï´óµçÁ÷,USB¹©µç¿ÉÄÜ²»×ã,ÇëÓÃÍâ²¿µçÔ´¹©µç(5VµçÔ´£¬½ÓVOUT2¼´¿É).
-	2,±¾Àý³ÌÔÚLCD_Initº¯ÊýÀïÃæ(ÔÚILI93xx.c),ÓÃµ½ÁËprintf,Èç¹û²»³õÊ¼»¯´®¿Ú1,½«µ¼ÖÂÒº¾§ÎÞ·¨ÏÔÊ¾!! 
-	3,LCDÄ£¿éÔÚ¿ª·¢°åµÄLCD½Ó¿ÚÉÏÃæ£¬±ØÐë¿¿ÓÒ²å¡£ 
+åŸºäºŽstm32f103çš„ç¤ºæ³¢å™¨
+	æœ¬å®žéªŒåˆ©ç”¨MiniSTM32å¼€å‘æ¿è¿žæŽ¥ALIENTEK TFTLCDæ¨¡å—(é™¤CPLDç‰ˆæœ¬7å¯¸å±æ¨¡å—å¤–,å…¶ä½™æ‰€æœ‰ALIENTEKçš„
+	LCDæ¨¡å—éƒ½å¯ä»¥æ”¯æŒ)ï¼Œå®žçŽ°TFTLCDæ¨¡å—çš„ç¤ºæ³¢å™¨ã€‚
+æ³¨æ„äº‹é¡¹:  
+	1,4.3å¯¸å’Œ7å¯¸å±éœ€è¦æ¯”è¾ƒå¤§ç”µæµ,USBä¾›ç”µå¯èƒ½ä¸è¶³,è¯·ç”¨å¤–éƒ¨ç”µæºä¾›ç”µ(5Vç”µæºï¼ŒæŽ¥VOUT2å³å¯).
+	2,æœ¬ä¾‹ç¨‹åœ¨LCD_Initå‡½æ•°é‡Œé¢(åœ¨ILI93xx.c),ç”¨åˆ°äº†printf,å¦‚æžœä¸åˆå§‹åŒ–ä¸²å£1,å°†å¯¼è‡´æ¶²æ™¶æ— æ³•æ˜¾ç¤º!! 
+	3,LCDæ¨¡å—åœ¨å¼€å‘æ¿çš„LCDæŽ¥å£ä¸Šé¢ï¼Œå¿…é¡»é å³æ’ã€‚ 
 	
 	
-					ÕýµãÔ­×Ó@ALIENTEK
-					2014-3-07
-					¹ãÖÝÊÐÐÇÒíµç×Ó¿Æ¼¼ÓÐÏÞ¹«Ë¾
-					µç»°£º020-38271790
-					´«Õæ£º020-36773971
-					¹ºÂò£ºhttp://shop62103354.taobao.com
-					http://shop62057469.taobao.com
-					¹«Ë¾ÍøÕ¾£ºwww.alientek.com
-					¼¼ÊõÂÛÌ³£ºwww.openedv.com
+					
